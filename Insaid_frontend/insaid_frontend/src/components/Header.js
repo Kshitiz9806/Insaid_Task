@@ -5,8 +5,10 @@ const Header = () => {
     return (
         <div>
             <div className='Ribbon'>
-                Data Science or Product Management: Which career is right for you?
-                <button classNam='btn btn-success'>Talk to an Expert</button>
+                <div className='RibbonText'>
+                    Data Science or Product Management: Which career is right for you? &nbsp;
+                    <button id='RequestCallback' className='CallbackButton'><b>Talk to an Expert</b></button>
+                </div>
             </div>
         </div>
     )

@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from 'react'
 
-export default function navbar() {
+export default class Navbar extends Component {
+  render() {
     return (
-        <div>
-            
-        </div>
+      <div>navbar</div>
     )
+  }
 }
