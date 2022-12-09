@@ -7,7 +7,7 @@ const MainPage = () => {
     return (
         <div>
             <Header />
-            <NavBar />
+            <Navbar />
             <Footer />
         </div>
     )
