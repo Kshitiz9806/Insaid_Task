@@ -3,7 +3,7 @@
     background-color: #ffffff;
     height: 75px;
     width: 100%;
-    position: absolute;
+    position: sticky;
 }
 
 .InsaidLogo {
