@@ -1,4 +1,5 @@
 .Popup {
+    background-color: #ffffff;
     position: fixed;
     top: 0;
     left: 0;
@@ -9,4 +10,25 @@
     margin-left: 25%;
     margin-right: 25%;
     z-index: 5;
+    animation: floatIn 0.5s linear;
+}
+
+.CloseButton {
+    width: 70px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    position: fixed;
+    top: 508px;
+    left: 740px;
+}
+
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

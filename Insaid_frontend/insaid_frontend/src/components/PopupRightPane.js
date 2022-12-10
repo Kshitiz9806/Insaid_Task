@@ -1,7 +1,7 @@
 import React from 'react'
 import './popupRightPane.css'
 
-const PopupRightPane = () => {
+const PopupRightPane = (props) => {
     return (
         <div className='PopupRightPane'>
             <br />
@@ -16,7 +16,7 @@ const PopupRightPane = () => {
                     <option value='Data Science'>Data Science</option>
                     <option value='Product Management'>Product Management</option>
                 </select>
-                <button className='SubmitButton'>Call Me Back</button>
+                <button className='SubmitButton' onClick={() => {props.setTrigger(false)}}>Call Me Back</button>
             </form>
         </div>
     )
