@@ -7,7 +7,7 @@ const PopupLeftPane = () => {
             <br />
             <div className='PopupLeftText1'> Call Our Experts</div>
             <br />
-            <div className='ContactInfo'>
+            <div className='PopupLeftContactInfo'>
                 Data Science: <a href='tel:7063119228'>+91 7063119228</a>
                 <br />
                 <br />

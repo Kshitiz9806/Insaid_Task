@@ -13,7 +13,7 @@
     animation: floatIn 0.5s linear;
 }
 
-.CloseButton {
+.PopupCloseButton {
     width: 70px;
     height: 35px;
     background-color: blue;
@@ -21,7 +21,7 @@
     border-radius: 7px;
     position: fixed;
     top: 508px;
-    left: 740px;
+    left: 720px;
 }
 
 @keyframes floatIn {

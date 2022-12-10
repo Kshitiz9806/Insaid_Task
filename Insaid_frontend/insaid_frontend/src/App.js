@@ -1,4 +1,3 @@
-import './App.css';
 import MainPage from './components/MainPage';
 import React, { Component } from 'react'
 

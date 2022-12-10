@@ -19,7 +19,7 @@ const MainPage = () => {
                 <RightPanel />
             </div>
             <br />
-            <div>
+            <div style={{paddingLeft: "35%"}}>
                 <font size="+1">
                     Need <b>help</b> choosing the right program? &nbsp;&nbsp; 
                     <a href="https://assist.insaid.co/form/NQ==" target="blank">

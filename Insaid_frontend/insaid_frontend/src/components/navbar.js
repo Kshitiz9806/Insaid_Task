@@ -6,9 +6,9 @@ export default class Navbar extends Component {
         return (
             <div className='NavBar'>
                 <img src="https://www.insaid.co/wp-content/uploads/2021/05/insaid-text-logo-2x.png" alt='Insaid Logo' className='InsaidLogo'/>
-                <div className='Text'>
+                <div className='NavBarText'>
                     <b>Data Science &nbsp;&nbsp;&nbsp; Product Management &nbsp;&nbsp;&nbsp; For Corporate &nbsp;&nbsp;&nbsp; About INSAID &nbsp;&nbsp;&nbsp;</b>
-                    <button className='LoginButton' onClick={() => {alert("Logins Not Implemented Yet!")}}>Login</button>
+                    <button className='NavBarLoginButton' onClick={() => {alert("Logins Not Implemented Yet!")}}>Login</button>
                 </div>
             </div>
         )

@@ -7,20 +7,20 @@
     margin: 20px;
 }
 
-.Text1 {
+.LeftPaneText1 {
     font-size: 28px;
 }
 
-.Text2 {
+.LeftPaneText2 {
     font-size: 38px;
     font-weight: bold;
 }
 
-.Text3 {
+.LeftPaneText3 {
     font-size: 15px;
 }
 
-.ChatButton {
+.LeftPaneChatButton {
     width: 250px;
     height: 45px;
     font-size: 20px;
@@ -37,13 +37,13 @@
     animation: blinker 3s linear infinite;
 }
 
-.Logo1 {
+.LeftPaneLogo1 {
     width: 40px;
     height: 40px;
     position: fixed;
 }
 
-.Text4 {
+.LeftPaneText4 {
     position: absolute;
     margin-top: 10px;
     font-size: 15px;

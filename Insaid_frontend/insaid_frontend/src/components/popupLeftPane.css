@@ -7,11 +7,13 @@
 
 .PopupLeftText1 {
     font-size: 17px;
+    text-align: center;
 }
 
-.ContactInfo {
+.PopupLeftContactInfo {
     color: blue;
     font-size: 14px;
+    text-align: center;
 }
 
 .PopupLeftGuideBox {
