@@ -3,14 +3,16 @@ import Header from "./Header";
 import Footer from './Footer';
 import Navbar from "./Navbar";
 import LeftPanel from "./LeftPanel";
+import Popup from "./Popup";
 
 const MainPage = () => {
     return (
         <div>
-            <Header />
+            {/* <Header />
             <Navbar />
             <LeftPanel />
-            <Footer />
+            <Footer /> */}
+            <Popup />
         </div>
     )
 }

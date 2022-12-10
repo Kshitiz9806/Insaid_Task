@@ -1,0 +1,24 @@
+.PopupLeftPane {
+    width: 45%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.PopupLeftText1 {
+    font-size: 17px;
+}
+
+.ContactInfo {
+    color: blue;
+    font-size: 14px;
+}
+
+.PopupLeftGuideBox {
+    background-color: blue;
+    color: white;
+    width: 80%;
+    height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
