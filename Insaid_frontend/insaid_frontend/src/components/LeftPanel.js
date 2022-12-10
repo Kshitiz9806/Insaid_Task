@@ -2,7 +2,7 @@ import React from "react";
 import './leftpanel.css'
 
 
-const LeftPanel = () => {
+const LeftPanel = (props) => {
     return (
         <div className="LeftPane">
             <div className="Text1">Get your Dream Job with</div>
@@ -11,7 +11,7 @@ const LeftPanel = () => {
             <div className="Text3">Learn with India's leading online school for working professionals</div>
             <br />
             <br />
-            <button className="ChatButton">Talk to an Expert</button>
+            <button className="ChatButton" onClick={() => {props.setTrigger(true)}}>Talk to an Expert</button>
             <br />
             <br />
             <br />

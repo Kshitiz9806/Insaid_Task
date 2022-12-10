@@ -4,15 +4,18 @@ import Footer from './Footer';
 import Navbar from "./Navbar";
 import LeftPanel from "./LeftPanel";
 import Popup from "./Popup";
+import {useState} from 'react';
 
 const MainPage = () => {
+    const [buttonPopup, setButtonPopup] = useState(false);
+
     return (
         <div>
-            {/* <Header />
+            <Header setTrigger={setButtonPopup}/>
             <Navbar />
-            <LeftPanel />
-            <Footer /> */}
-            <Popup />
+            <LeftPanel setTrigger={setButtonPopup}/>
+            <Footer />
+            <Popup trigger={buttonPopup}/>
         </div>
     )
 }
